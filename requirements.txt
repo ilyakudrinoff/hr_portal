@@ -1,0 +1,4 @@
+openpyxl>=3.1
+# tkinter и sqlite3 входят в стандартную поставку Python
+# Для сборки .exe (только на Windows):
+pyinstaller>=6.0 ; sys_platform == "win32"
